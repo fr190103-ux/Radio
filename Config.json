@@ -16,7 +16,7 @@ public class Config {
 
     public static boolean HABILITAR_ALBUM = true;
 
-    public static final String WHATSAPP_NUMERO = "+50589171804";
+    public static final String WHATSAPP_NUMERO = "+50585245049";
 
     public static final String LINK_COMPARTILHAR = "https://playstoreapps.com.br/wrb/";
 
