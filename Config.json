@@ -1,19 +1,38 @@
+package com.app.classicradio;
 
-{
-  "radio_stream_url": "https://stream.zeno.fm/6lkwhobohdhuv",
-  "now_playing_text": "Sonando Ahora:",
-  "enable_autoplay": true,
-  "habilitar_album": true,
-  "whatsapp_numero": "+50589171804",
-  "link_compartilhar": "https://playstoreapps.com.br/wrb/",
-  "habilitar_feeds": true,
-  "album_art_round": false,
-  "enable_social_icons": true,
-  "enable_volume_bar": true,
-  "social_media": {
-    "facebook": "https://facebook.com/TU_PAGINA",
-    "instagram": "https://instagram.com/TU_PERFIL",
-    "twitter": "https://twitter.com/TU_USUARIO",
-    "youtube": "https://youtube.com/TU_CANAL"
-  }
+public class Config {
+
+    /** App Access Key */
+
+    /** URL da Rádio */
+    public static final String RADIO_STREAM_URL = "https://stream.zeno.fm/6lkwhobohdhuv";
+
+
+    /** Change Now Playing */
+    public static final String NOW_PLAYING_TEXT = "Sonando Ahora:";
+
+    /** Habilitar/Desabilitar o Autoplay */
+    public static boolean ENABLE_AUTOPLAY = true;
+
+    public static boolean HABILITAR_ALBUM = true;
+
+    public static final String WHATSAPP_NUMERO = "+50589171804";
+
+    public static final String LINK_COMPARTILHAR = "https://playstoreapps.com.br/wrb/";
+
+
+    /** Habilita/Desabilita as Notícias na tela principal*/
+    public static boolean HABILITAR_FEEDS = true;
+
+    /** Alterar Estilo do album radial ou quadrado */
+    public static final boolean ALBUM_ART_ROUND = false;
+
+    /** Habilitar ou desabilitar Social Icons */
+    public static final boolean ENABLE_SOCIAL_ICONS= true;
+
+    /** Habilitar/Desabilitar a barra de volume */
+    public static final boolean ENABLE_VOLUME_BAR= true;
+
+
+
 }
