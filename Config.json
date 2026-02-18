@@ -11,28 +11,31 @@ public class Config {
     /** Change Now Playing */
     public static final String NOW_PLAYING_TEXT = "Sonando Ahora:";
 
-    /** Habilitar/Desabilitar o Autoplay */
+    /** package com.app.classicradio;
+
+public class Config {
+
+    /** * URL de Control Remoto (GitHub Raw)
+     * Esta es la línea que permite controlar la app sin actualizarla.
+     */
+    public static final String JSON_CONFIG_URL = "https://raw.githubusercontent.com/fr190103-ux/Radio/main/Config.json";
+
+    /** URL da Rádio (Respaldo) */
+    public static final String RADIO_STREAM_URL = "https://stream.zeno.fm/6lkwhobohdhuv";
+
+    /** Change Now Playing */
+    public static final String NOW_PLAYING_TEXT = "Sonando Ahora:";
+
+    /** Configuraciones de Funciones */
     public static boolean ENABLE_AUTOPLAY = true;
-
     public static boolean HABILITAR_ALBUM = true;
-
-    public static final String WHATSAPP_NUMERO = "+50585245049";
-
-    public static final String LINK_COMPARTILHAR = "https://playstoreapps.com.br/wrb/";
-
-
-    /** Habilita/Desabilita as Notícias na tela principal*/
     public static boolean HABILITAR_FEEDS = true;
-
-    /** Alterar Estilo do album radial ou quadrado */
     public static final boolean ALBUM_ART_ROUND = false;
+    public static final boolean ENABLE_SOCIAL_ICONS = true;
+    public static final boolean ENABLE_VOLUME_BAR = true;
 
-    /** Habilitar ou desabilitar Social Icons */
-    public static final boolean ENABLE_SOCIAL_ICONS= true;
-
-    /** Habilitar/Desabilitar a barra de volume */
-    public static final boolean ENABLE_VOLUME_BAR= true;
-
-
-
+    /** Contacto y Compartir */
+    public static final String WHATSAPP_NUMERO = "+50589171804";
+    public static final String LINK_COMPARTILHAR = "https://playstoreapps.com.br/wrb/";
 }
+ o Autoplay 
